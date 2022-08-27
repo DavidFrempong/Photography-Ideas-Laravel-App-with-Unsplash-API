@@ -1,0 +1,40 @@
+#admin-section {
+    #projects {
+    }
+    table {
+        display: table;
+        width: 100%;
+        margin: 20px 0px;
+
+        thead {
+            background: #fafafa;
+
+            th {
+                border: 1px solid #0a0a0a;
+                color: #ffffff;
+            }
+        }
+
+        tbody {
+            td {
+                border: 1px solid #0a0a0a;
+                text-align: center;
+
+                .edit-btn {
+                    font-size: 12px;
+                    padding: 10px 20px;
+                    background: blue;
+                    display: inline-block;
+                    border-radius: 3px;
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        th,
+        td {
+            padding: 10px 20px;
+        }
+    }
+}

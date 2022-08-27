@@ -1,0 +1,194 @@
+html {
+    // background: purple;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
+    background: linear-gradient(45deg, #72dfe9 0%,#d69cfe 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+header {
+    position: absolute;
+    width: 100%;
+}
+header .logo {
+    display: inline-block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+header .logo:hover {
+    color: red;
+}
+header nav {
+    float: right;
+}
+header nav a {
+    display: inline-block;
+    padding: 20px 10px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+header nav a:hover {
+    color: red;
+}
+#site-section {
+    font-family: &#39;
+   Roboto&#39;
+   , sans-serif;
+    padding-top: 56px;
+}
+#site-section #home .search-area {
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#site-section #home .search-area .search-container {
+    width: 45%;
+}
+#site-section #home .search-area h1 {
+    font-weight: 100;
+    color: white;
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+#site-section #home .search-area input {
+    flex: auto;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #ccc;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    -moz-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    transition: all 0.6s ease-in-out;
+}
+#site-section #home .search-area input::-webkit-input-placeholder {
+   /* Chrome/Opera/Safari */
+    color: pink;
+}
+#site-section #home .search-area input:focus, #site-section #home .search-area input input:focus {
+    outline: none;
+    color: white;
+    background: #dae972;
+}
+#site-section #home .search-area input:focus::-webkit-input-placeholder, #site-section #home .search-area input input:focus::-webkit-input-placeholder {
+    color: white;
+}
+#site-section #results input {
+    flex: auto;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: #ccc;
+    text-align: center;
+    display: inline-block;
+    -webkit-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    -moz-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    transition: all 0.6s ease-in-out;
+    margin: 50px 0;
+}
+#site-section #results input::-webkit-input-placeholder {
+   /* Chrome/Opera/Safari */
+    color: pink;
+}
+#site-section #results input:focus, #site-section #results input input:focus {
+    outline: none;
+    color: white;
+    background: #dae972;
+}
+#site-section #results input:focus::-webkit-input-placeholder, #site-section #results input input:focus::-webkit-input-placeholder {
+    color: white;
+}
+#site-section #results .boxes .box {
+    background: #fff;
+    padding: 0;
+    border-radius: 3px;
+    border: 5px solid #fff;
+    margin-bottom: 50px;
+}
+#site-section #results .boxes .box:hover {
+    cursor: pointer;
+}
+#site-section #results .boxes .box:hover .add-btn {
+    opacity: 1;
+    top: 20px;
+}
+#site-section #results .boxes .box .add-btn {
+    color: white;
+    opacity: 0;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 20px;
+    top: 80px;
+    background: #fff;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    -moz-box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    box-shadow: 0 10px 68px 10px rgba(83, 101, 148, 0.37);
+    transition: all 0.6s ease-in-out;
+}
+#site-section #results .boxes .box .add-btn.active, #site-section #results .boxes .box .add-btn:hover {
+    top: 20px;
+    opacity: 1;
+    background: linear-gradient(45deg, #72dfe9 0%, #d69cfe 100%);
+}
+#site-section #results .boxes .box .add-btn.active i.fa-check, #site-section #results .boxes .box .add-btn:hover i.fa-check {
+    display: block;
+    text-align: center;
+}
+#site-section #results .boxes .box .add-btn i.fa-check {
+    display: none;
+}
+#site-section #auth .box {
+    background: #fff;
+    padding: 20px 15px;
+    border-radius: 3px;
+}
+#site-section #auth label {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+#site-section label {
+    text-transform: capitalize;
+}
+#site-section input, #site-section select, #site-section textarea {
+    border: 1px solid #2a70ef;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 1rem;
+}
+#site-section input:focus, #site-section select:focus, #site-section textarea:focus {
+    outline: none;
+}
+#site-section button {
+    min-width: 200px;
+    background: #2a70ef;
+    border: 1px solid #2a70ef;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 3px;
+    font-weight: 300;
+    margin: 0 auto;
+}
+
